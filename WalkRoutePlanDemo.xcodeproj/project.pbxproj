@@ -13,9 +13,13 @@
 		D97B79B91E12743A00B5116C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D97B79B71E12743A00B5116C /* Main.storyboard */; };
 		D97B79BB1E12743A00B5116C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D97B79BA1E12743A00B5116C /* Assets.xcassets */; };
 		D97B79BE1E12743A00B5116C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D97B79BC1E12743A00B5116C /* LaunchScreen.storyboard */; };
+		F10C666C2FE043A984439F9B /* libPods-WalkRoutePlanDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 082555795D8858CAB69C601B /* libPods-WalkRoutePlanDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		082555795D8858CAB69C601B /* libPods-WalkRoutePlanDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WalkRoutePlanDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		09A70C102B46906D9D6DF517 /* Pods-WalkRoutePlanDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalkRoutePlanDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WalkRoutePlanDemo/Pods-WalkRoutePlanDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		CE39161AFFD0DF11A65E6771 /* Pods-WalkRoutePlanDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalkRoutePlanDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WalkRoutePlanDemo/Pods-WalkRoutePlanDemo.release.xcconfig"; sourceTree = "<group>"; };
 		D97B79AB1E12743A00B5116C /* WalkRoutePlanDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalkRoutePlanDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D97B79AF1E12743A00B5116C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D97B79B11E12743A00B5116C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -33,17 +37,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F10C666C2FE043A984439F9B /* libPods-WalkRoutePlanDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BE518713266F995E733D0B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				09A70C102B46906D9D6DF517 /* Pods-WalkRoutePlanDemo.debug.xcconfig */,
+				CE39161AFFD0DF11A65E6771 /* Pods-WalkRoutePlanDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		318CF64353C6656B1AC8CEB9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				082555795D8858CAB69C601B /* libPods-WalkRoutePlanDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D97B79A21E12743A00B5116C = {
 			isa = PBXGroup;
 			children = (
 				D97B79AD1E12743A00B5116C /* WalkRoutePlanDemo */,
 				D97B79AC1E12743A00B5116C /* Products */,
+				2BE518713266F995E733D0B8 /* Pods */,
+				318CF64353C6656B1AC8CEB9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -86,9 +110,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D97B79C21E12743A00B5116C /* Build configuration list for PBXNativeTarget "WalkRoutePlanDemo" */;
 			buildPhases = (
+				CA43AAED92BFBF2BE0152CB9 /* [CP] Check Pods Manifest.lock */,
 				D97B79A71E12743A00B5116C /* Sources */,
 				D97B79A81E12743A00B5116C /* Frameworks */,
 				D97B79A91E12743A00B5116C /* Resources */,
+				54C252145132E6A451282B4A /* [CP] Embed Pods Frameworks */,
+				5E0D79E7BE8CAB024486BDB5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -145,6 +172,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		54C252145132E6A451282B4A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WalkRoutePlanDemo/Pods-WalkRoutePlanDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E0D79E7BE8CAB024486BDB5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WalkRoutePlanDemo/Pods-WalkRoutePlanDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA43AAED92BFBF2BE0152CB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D97B79A71E12743A00B5116C /* Sources */ = {
@@ -269,6 +344,7 @@
 		};
 		D97B79C31E12743A00B5116C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09A70C102B46906D9D6DF517 /* Pods-WalkRoutePlanDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = YMJ372W38W;
@@ -284,6 +360,7 @@
 		};
 		D97B79C41E12743A00B5116C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE39161AFFD0DF11A65E6771 /* Pods-WalkRoutePlanDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
@@ -317,6 +394,7 @@
 				D97B79C41E12743A00B5116C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
