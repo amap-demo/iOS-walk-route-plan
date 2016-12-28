@@ -15,8 +15,8 @@ iOS步行路线规划demo
 
 ## demo运行效果图 ##
 
-![Screenshot](./ScreenShots/screenshot0.jpeg)
-![Screenshot](./ScreenShots/screenshot1.jpeg)
+![Screenshot](./ScreenShots/1.jpeg)
+![Screenshot](./ScreenShots/2.jpeg)
 
 ## 核心类／接口 ##
 
