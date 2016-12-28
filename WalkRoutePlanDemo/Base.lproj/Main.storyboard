@@ -51,10 +51,10 @@
                                             <action selector="restartSearch:" destination="VIC-2Y-Xoq" eventType="touchUpInside" id="fRp-Jh-8MB"/>
                                         </connections>
                                     </button>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="步行路线规划" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KOA-iP-QWC">
-                                        <rect key="frame" x="128" y="20" width="120" height="45"/>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="步行出行路线规划" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="KOA-iP-QWC">
+                                        <rect key="frame" x="98" y="20" width="180" height="45"/>
                                         <constraints>
-                                            <constraint firstAttribute="width" constant="120" id="6xt-27-yAL"/>
+                                            <constraint firstAttribute="width" constant="180" id="6xt-27-yAL"/>
                                             <constraint firstAttribute="height" constant="45" id="9hC-hK-8TJ"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="17"/>

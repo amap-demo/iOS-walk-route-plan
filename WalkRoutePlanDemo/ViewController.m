@@ -140,7 +140,8 @@ static const NSString *RoutePlanningViewControllerDestinationTitle = @"终点";
     
     self.totalRouteNums = self.route.paths.count;
     self.currentRouteIndex = 0;
-    self.switchRouteBtn.enabled = self.routeDetailBtn.enabled = self.totalRouteNums > 0;
+    self.routeDetailBtn.enabled = self.totalRouteNums > 0;
+    self.switchRouteBtn.enabled = self.totalRouteNums > 1;
     self.infoLabel.text = @"";
     
     [self presentCurrentRouteCourse];

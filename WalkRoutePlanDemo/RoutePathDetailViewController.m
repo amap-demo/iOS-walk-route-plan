@@ -35,19 +35,11 @@
                          @"结束":@"end",
                          @"右转":@"right",
                          @"左转":@"left",
-                         @"直行":@"straight",
-                         @"向右前方行驶":@"rightFront",
-                         @"向左前方行驶":@"leftFront",
-                         @"向左后方行驶":@"leftRear",
-                         @"向右后方行驶":@"rightRear",
-                         @"左转调头":@"leftRear",
-                         @"靠左":@"leftFront",
-                         @"靠右":@"rightFront",
-                         @"进入环岛":@"straight",
-                         @"离开环岛":@"straight",
-                         @"减速行驶":@"dottedStraight",
-                         @"插入直行":@"straight",
-                         @"":@"straight",
+                         @"往前走":@"straight",
+                         @"向右前方行走":@"rightFront",
+                         @"向左前方行走":@"leftFront",
+                         @"向左后方行走":@"leftRear",
+                         @"向右后方行走":@"rightRear",
                          };
     
     [self setUpViews];
@@ -64,7 +56,13 @@
     NSInteger hours = self.path.duration / 3600;
     NSInteger minutes = (NSInteger)(self.path.duration / 60) % 60;
     self.timeInfoLabel.text = [NSString stringWithFormat:@"%u小时%u分钟（%u公里）",(unsigned)hours,(unsigned)minutes,(unsigned)self.path.distance / 1000];
-    self.taxiCostInfoLabel.text = [NSString stringWithFormat:@"打车约%.0f元",self.route.taxiCost];
+    
+    if (self.route.taxiCost) {
+        self.taxiCostInfoLabel.text = [NSString stringWithFormat:@"打车约%.0f元",self.route.taxiCost];
+    }else{
+        self.taxiCostInfoLabel.text = [NSString stringWithFormat:@"打车费用未知"];
+    }
+    
     
     AMapStep *startStep = [AMapStep new];
     startStep.action = @"开始"; //导航主要动作，用来标示图标
