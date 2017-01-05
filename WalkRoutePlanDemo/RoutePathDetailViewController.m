@@ -36,10 +36,13 @@
                          @"右转":@"right",
                          @"左转":@"left",
                          @"往前走":@"straight",
+                         @"靠右":@"rightFront",
+                         @"靠左":@"leftFront",
                          @"向右前方行走":@"rightFront",
                          @"向左前方行走":@"leftFront",
                          @"向左后方行走":@"leftRear",
                          @"向右后方行走":@"rightRear",
+                         @"":@"straight"
                          };
     
     [self setUpViews];

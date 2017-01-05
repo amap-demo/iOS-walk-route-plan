@@ -7,6 +7,96 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2BB0413F899417A052C2864D /* libPods-WalkRoutePlanDemo-Swift.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 93D31F12E6CD48BCA6380428 /* libPods-WalkRoutePlanDemo-Swift.a */; };
+		D96417051E1E560B00FB13D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96417041E1E560B00FB13D6 /* AppDelegate.swift */; };
+		D964170A1E1E560B00FB13D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D96417081E1E560B00FB13D6 /* Main.storyboard */; };
+		D964170C1E1E560B00FB13D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D964170B1E1E560B00FB13D6 /* Assets.xcassets */; };
+		D964170F1E1E560B00FB13D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D964170D1E1E560B00FB13D6 /* LaunchScreen.storyboard */; };
+		D96417151E1E56B700FB13D6 /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96417141E1E56B700FB13D6 /* RootViewController.swift */; };
+		D96417181E1E583300FB13D6 /* LineDashPolyline.m in Sources */ = {isa = PBXBuildFile; fileRef = D97B79C81E12799C00B5116C /* LineDashPolyline.m */; };
+		D964171A1E1E583300FB13D6 /* MANaviAnnotation.m in Sources */ = {isa = PBXBuildFile; fileRef = D97B79CA1E12799C00B5116C /* MANaviAnnotation.m */; };
+		D964171C1E1E583300FB13D6 /* MANaviPolyline.m in Sources */ = {isa = PBXBuildFile; fileRef = D97B79CC1E12799C00B5116C /* MANaviPolyline.m */; };
+		D964171E1E1E583300FB13D6 /* MANaviRoute.m in Sources */ = {isa = PBXBuildFile; fileRef = D97B79CE1E12799C00B5116C /* MANaviRoute.m */; };
+		D964171F1E1E587800FB13D6 /* CommonUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = D97B7A261E12799C00B5116C /* CommonUtility.m */; };
+		D96417201E1E58C900FB13D6 /* arrow_right.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79D11E12799C00B5116C /* arrow_right.png */; };
+		D96417211E1E58C900FB13D6 /* arrow_right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79D21E12799C00B5116C /* arrow_right@2x.png */; };
+		D96417221E1E58C900FB13D6 /* arrowTexture.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79D31E12799C00B5116C /* arrowTexture.png */; };
+		D96417231E1E58C900FB13D6 /* bus@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79D41E12799C00B5116C /* bus@2x.png */; };
+		D96417241E1E58C900FB13D6 /* car@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79D51E12799C00B5116C /* car@2x.png */; };
+		D96417251E1E58C900FB13D6 /* compass@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79D61E12799C00B5116C /* compass@2x.png */; };
+		D96417261E1E58C900FB13D6 /* custtexture.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79D71E12799C00B5116C /* custtexture.png */; };
+		D96417271E1E58C900FB13D6 /* custtexture_bad.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79D81E12799C00B5116C /* custtexture_bad.png */; };
+		D96417281E1E58C900FB13D6 /* custtexture_green.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79D91E12799C00B5116C /* custtexture_green.png */; };
+		D96417291E1E58C900FB13D6 /* custtexture_slow.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79DA1E12799C00B5116C /* custtexture_slow.png */; };
+		D964172A1E1E58C900FB13D6 /* decrease@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79DB1E12799C00B5116C /* decrease@2x.png */; };
+		D964172B1E1E58C900FB13D6 /* delete@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79DC1E12799C00B5116C /* delete@3x.png */; };
+		D964172C1E1E58C900FB13D6 /* busRoute@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79DE1E12799C00B5116C /* busRoute@2x.png */; };
+		D964172D1E1E58C900FB13D6 /* busRoute@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79DF1E12799C00B5116C /* busRoute@3x.png */; };
+		D964172E1E1E58C900FB13D6 /* dottedStraight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79E01E12799C00B5116C /* dottedStraight@2x.png */; };
+		D964172F1E1E58C900FB13D6 /* dottedStraight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79E11E12799C00B5116C /* dottedStraight@3x.png */; };
+		D96417301E1E58C900FB13D6 /* downStairs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79E21E12799C00B5116C /* downStairs@2x.png */; };
+		D96417311E1E58C900FB13D6 /* downStairs@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79E31E12799C00B5116C /* downStairs@3x.png */; };
+		D96417321E1E58C900FB13D6 /* end@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79E41E12799C00B5116C /* end@2x.png */; };
+		D96417331E1E58C900FB13D6 /* end@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79E51E12799C00B5116C /* end@3x.png */; };
+		D96417341E1E58C900FB13D6 /* left@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79E61E12799C00B5116C /* left@2x.png */; };
+		D96417351E1E58C900FB13D6 /* left@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79E71E12799C00B5116C /* left@3x.png */; };
+		D96417361E1E58C900FB13D6 /* leftFront@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79E81E12799C00B5116C /* leftFront@2x.png */; };
+		D96417371E1E58C900FB13D6 /* leftFront@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79E91E12799C00B5116C /* leftFront@3x.png */; };
+		D96417381E1E58C900FB13D6 /* leftRear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79EA1E12799C00B5116C /* leftRear@2x.png */; };
+		D96417391E1E58C900FB13D6 /* leftRear@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79EB1E12799C00B5116C /* leftRear@3x.png */; };
+		D964173A1E1E58C900FB13D6 /* lift@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79EC1E12799C00B5116C /* lift@2x.png */; };
+		D964173B1E1E58C900FB13D6 /* lift@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79ED1E12799C00B5116C /* lift@3x.png */; };
+		D964173C1E1E58C900FB13D6 /* pavement@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79EE1E12799C00B5116C /* pavement@2x.png */; };
+		D964173D1E1E58C900FB13D6 /* pavement@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79EF1E12799C00B5116C /* pavement@3x.png */; };
+		D964173E1E1E58C900FB13D6 /* point@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79F01E12799C00B5116C /* point@2x.png */; };
+		D964173F1E1E58C900FB13D6 /* point@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79F11E12799C00B5116C /* point@3x.png */; };
+		D96417401E1E58C900FB13D6 /* right@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79F21E12799C00B5116C /* right@2x.png */; };
+		D96417411E1E58C900FB13D6 /* right@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79F31E12799C00B5116C /* right@3x.png */; };
+		D96417421E1E58C900FB13D6 /* rightFront@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79F41E12799C00B5116C /* rightFront@2x.png */; };
+		D96417431E1E58C900FB13D6 /* rightFront@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79F51E12799C00B5116C /* rightFront@3x.png */; };
+		D96417441E1E58C900FB13D6 /* rightRear@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79F61E12799C00B5116C /* rightRear@2x.png */; };
+		D96417451E1E58C900FB13D6 /* rightRear@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79F71E12799C00B5116C /* rightRear@3x.png */; };
+		D96417461E1E58C900FB13D6 /* start@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79F81E12799C00B5116C /* start@2x.png */; };
+		D96417471E1E58C900FB13D6 /* start@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79F91E12799C00B5116C /* start@3x.png */; };
+		D96417481E1E58C900FB13D6 /* straight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79FA1E12799C00B5116C /* straight@2x.png */; };
+		D96417491E1E58C900FB13D6 /* straight@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79FB1E12799C00B5116C /* straight@3x.png */; };
+		D964174A1E1E58C900FB13D6 /* underGround@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79FC1E12799C00B5116C /* underGround@2x.png */; };
+		D964174B1E1E58C900FB13D6 /* underGround@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79FD1E12799C00B5116C /* underGround@3x.png */; };
+		D964174C1E1E58C900FB13D6 /* upStairs@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79FE1E12799C00B5116C /* upStairs@2x.png */; };
+		D964174D1E1E58C900FB13D6 /* upStairs@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B79FF1E12799C00B5116C /* upStairs@3x.png */; };
+		D964174E1E1E58C900FB13D6 /* walkRoute@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7A001E12799C00B5116C /* walkRoute@2x.png */; };
+		D964174F1E1E58C900FB13D6 /* walkRoute@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7A011E12799C00B5116C /* walkRoute@3x.png */; };
+		D96417501E1E58C900FB13D6 /* download@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7A021E12799C00B5116C /* download@3x.png */; };
+		D96417511E1E58C900FB13D6 /* endPoint.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7A031E12799C00B5116C /* endPoint.png */; };
+		D96417521E1E58C900FB13D6 /* endPoint@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7A041E12799C00B5116C /* endPoint@2x.png */; };
+		D96417531E1E58C900FB13D6 /* gpsStat1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7A051E12799C00B5116C /* gpsStat1@2x.png */; };
+		D96417541E1E58C900FB13D6 /* gpsStat2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7A061E12799C00B5116C /* gpsStat2@2x.png */; };
+		D96417551E1E58C900FB13D6 /* GWF.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7A071E12799C00B5116C /* GWF.png */; };
+		D96417561E1E58C900FB13D6 /* hema.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7A081E12799C00B5116C /* hema.png */; };
+		D96417571E1E58C900FB13D6 /* icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7A0A1E12799C00B5116C /* icon-72.png */; };
+		D96417581E1E58C900FB13D6 /* icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7A0B1E12799C00B5116C /* icon-72@2x.png */; };
+		D96417591E1E58C900FB13D6 /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7A0C1E12799C00B5116C /* icon.png */; };
+		D964175A1E1E58C900FB13D6 /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7A0D1E12799C00B5116C /* icon@2x.png */; };
+		D964175B1E1E58C900FB13D6 /* increase@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7A0E1E12799C00B5116C /* increase@2x.png */; };
+		D964175C1E1E58C900FB13D6 /* locate@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7A0F1E12799C00B5116C /* locate@2x.png */; };
+		D964175D1E1E58C900FB13D6 /* man@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7A101E12799C00B5116C /* man@2x.png */; };
+		D964175E1E1E58C900FB13D6 /* navi@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7A111E12799C00B5116C /* navi@2x.png */; };
+		D964175F1E1E58C900FB13D6 /* naviBackgroundHighlighted.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7A121E12799C00B5116C /* naviBackgroundHighlighted.png */; };
+		D96417601E1E58C900FB13D6 /* naviBackgroundNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7A131E12799C00B5116C /* naviBackgroundNormal.png */; };
+		D96417611E1E58C900FB13D6 /* pause@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7A141E12799C00B5116C /* pause@3x.png */; };
+		D96417621E1E58C900FB13D6 /* public_button_back@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7A151E12799C00B5116C /* public_button_back@2x.png */; };
+		D96417631E1E58C900FB13D6 /* public_button_back@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7A161E12799C00B5116C /* public_button_back@3x.png */; };
+		D96417641E1E58C900FB13D6 /* railway_station@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7A171E12799C00B5116C /* railway_station@2x.png */; };
+		D96417651E1E58C900FB13D6 /* ride@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7A181E12799C00B5116C /* ride@2x.png */; };
+		D96417661E1E58C900FB13D6 /* search@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7A191E12799C00B5116C /* search@2x.png */; };
+		D96417671E1E58C900FB13D6 /* startPoint.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7A1A1E12799C00B5116C /* startPoint.png */; };
+		D96417681E1E58C900FB13D6 /* startPoint@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7A1B1E12799C00B5116C /* startPoint@2x.png */; };
+		D96417691E1E58C900FB13D6 /* userPosition.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7A1C1E12799C00B5116C /* userPosition.png */; };
+		D964176A1E1E58C900FB13D6 /* userPosition@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D97B7A1D1E12799C00B5116C /* userPosition@2x.png */; };
+		D964176F1E1E5B9500FB13D6 /* RoutePathDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D964176B1E1E5B9500FB13D6 /* RoutePathDetailTableViewCell.swift */; };
+		D96417701E1E5B9500FB13D6 /* RoutePathDetailTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D964176C1E1E5B9500FB13D6 /* RoutePathDetailTableViewCell.xib */; };
+		D96417711E1E5B9500FB13D6 /* RoutePathDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D964176D1E1E5B9500FB13D6 /* RoutePathDetailViewController.swift */; };
+		D96417721E1E5B9500FB13D6 /* RoutePathDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D964176E1E1E5B9500FB13D6 /* RoutePathDetailViewController.xib */; };
 		D97B79B01E12743A00B5116C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D97B79AF1E12743A00B5116C /* main.m */; };
 		D97B79B31E12743A00B5116C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D97B79B21E12743A00B5116C /* AppDelegate.m */; };
 		D97B79B61E12743A00B5116C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D97B79B51E12743A00B5116C /* ViewController.m */; };
@@ -103,7 +193,21 @@
 /* Begin PBXFileReference section */
 		082555795D8858CAB69C601B /* libPods-WalkRoutePlanDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WalkRoutePlanDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		09A70C102B46906D9D6DF517 /* Pods-WalkRoutePlanDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalkRoutePlanDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WalkRoutePlanDemo/Pods-WalkRoutePlanDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		1D395B64D7C5F588676E3758 /* Pods-WalkRoutePlanDemo-Swift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalkRoutePlanDemo-Swift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WalkRoutePlanDemo-Swift/Pods-WalkRoutePlanDemo-Swift.debug.xcconfig"; sourceTree = "<group>"; };
+		93D31F12E6CD48BCA6380428 /* libPods-WalkRoutePlanDemo-Swift.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WalkRoutePlanDemo-Swift.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE39161AFFD0DF11A65E6771 /* Pods-WalkRoutePlanDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalkRoutePlanDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-WalkRoutePlanDemo/Pods-WalkRoutePlanDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D96417021E1E560B00FB13D6 /* WalkRoutePlanDemo-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "WalkRoutePlanDemo-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D96417041E1E560B00FB13D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D96417091E1E560B00FB13D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D964170B1E1E560B00FB13D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D964170E1E1E560B00FB13D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D96417101E1E560B00FB13D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D96417141E1E56B700FB13D6 /* RootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		D96417161E1E57A300FB13D6 /* Swift-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Swift-Bridging-Header.h"; sourceTree = "<group>"; };
+		D964176B1E1E5B9500FB13D6 /* RoutePathDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutePathDetailTableViewCell.swift; sourceTree = "<group>"; };
+		D964176C1E1E5B9500FB13D6 /* RoutePathDetailTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoutePathDetailTableViewCell.xib; sourceTree = "<group>"; };
+		D964176D1E1E5B9500FB13D6 /* RoutePathDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoutePathDetailViewController.swift; sourceTree = "<group>"; };
+		D964176E1E1E5B9500FB13D6 /* RoutePathDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoutePathDetailViewController.xib; sourceTree = "<group>"; };
 		D97B79AB1E12743A00B5116C /* WalkRoutePlanDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WalkRoutePlanDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D97B79AF1E12743A00B5116C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D97B79B11E12743A00B5116C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -206,9 +310,18 @@
 		D97B7A231E12799C00B5116C /* RoutePathDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoutePathDetailViewController.xib; sourceTree = "<group>"; };
 		D97B7A251E12799C00B5116C /* CommonUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtility.h; sourceTree = "<group>"; };
 		D97B7A261E12799C00B5116C /* CommonUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtility.m; sourceTree = "<group>"; };
+		EBDE0393C81E7FD9180E79C0 /* Pods-WalkRoutePlanDemo-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalkRoutePlanDemo-Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-WalkRoutePlanDemo-Swift/Pods-WalkRoutePlanDemo-Swift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		D96416FF1E1E560B00FB13D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BB0413F899417A052C2864D /* libPods-WalkRoutePlanDemo-Swift.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D97B79A81E12743A00B5116C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -225,6 +338,8 @@
 			children = (
 				09A70C102B46906D9D6DF517 /* Pods-WalkRoutePlanDemo.debug.xcconfig */,
 				CE39161AFFD0DF11A65E6771 /* Pods-WalkRoutePlanDemo.release.xcconfig */,
+				1D395B64D7C5F588676E3758 /* Pods-WalkRoutePlanDemo-Swift.debug.xcconfig */,
+				EBDE0393C81E7FD9180E79C0 /* Pods-WalkRoutePlanDemo-Swift.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -233,14 +348,34 @@
 			isa = PBXGroup;
 			children = (
 				082555795D8858CAB69C601B /* libPods-WalkRoutePlanDemo.a */,
+				93D31F12E6CD48BCA6380428 /* libPods-WalkRoutePlanDemo-Swift.a */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D96417031E1E560B00FB13D6 /* WalkRoutePlanDemo-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				D96417041E1E560B00FB13D6 /* AppDelegate.swift */,
+				D96417081E1E560B00FB13D6 /* Main.storyboard */,
+				D96417141E1E56B700FB13D6 /* RootViewController.swift */,
+				D96417161E1E57A300FB13D6 /* Swift-Bridging-Header.h */,
+				D964176B1E1E5B9500FB13D6 /* RoutePathDetailTableViewCell.swift */,
+				D964176C1E1E5B9500FB13D6 /* RoutePathDetailTableViewCell.xib */,
+				D964176D1E1E5B9500FB13D6 /* RoutePathDetailViewController.swift */,
+				D964176E1E1E5B9500FB13D6 /* RoutePathDetailViewController.xib */,
+				D964170B1E1E560B00FB13D6 /* Assets.xcassets */,
+				D964170D1E1E560B00FB13D6 /* LaunchScreen.storyboard */,
+				D96417101E1E560B00FB13D6 /* Info.plist */,
+			);
+			path = "WalkRoutePlanDemo-Swift";
 			sourceTree = "<group>";
 		};
 		D97B79A21E12743A00B5116C = {
 			isa = PBXGroup;
 			children = (
 				D97B79AD1E12743A00B5116C /* WalkRoutePlanDemo */,
+				D96417031E1E560B00FB13D6 /* WalkRoutePlanDemo-Swift */,
 				D97B79AC1E12743A00B5116C /* Products */,
 				2BE518713266F995E733D0B8 /* Pods */,
 				318CF64353C6656B1AC8CEB9 /* Frameworks */,
@@ -251,6 +386,7 @@
 			isa = PBXGroup;
 			children = (
 				D97B79AB1E12743A00B5116C /* WalkRoutePlanDemo.app */,
+				D96417021E1E560B00FB13D6 /* WalkRoutePlanDemo-Swift.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -422,6 +558,26 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		D96417011E1E560B00FB13D6 /* WalkRoutePlanDemo-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D96417131E1E560B00FB13D6 /* Build configuration list for PBXNativeTarget "WalkRoutePlanDemo-Swift" */;
+			buildPhases = (
+				FDF190C3CEF132E863FF3230 /* [CP] Check Pods Manifest.lock */,
+				D96416FE1E1E560B00FB13D6 /* Sources */,
+				D96416FF1E1E560B00FB13D6 /* Frameworks */,
+				D96417001E1E560B00FB13D6 /* Resources */,
+				A2BB5C5DED07A9CA2AE30C35 /* [CP] Embed Pods Frameworks */,
+				00B697DE69AE9770DF20B1D9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "WalkRoutePlanDemo-Swift";
+			productName = "WalkRoutePlanDemo-Swift";
+			productReference = D96417021E1E560B00FB13D6 /* WalkRoutePlanDemo-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
 		D97B79AA1E12743A00B5116C /* WalkRoutePlanDemo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D97B79C21E12743A00B5116C /* Build configuration list for PBXNativeTarget "WalkRoutePlanDemo" */;
@@ -448,9 +604,15 @@
 		D97B79A31E12743A00B5116C /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0820;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = Amap;
 				TargetAttributes = {
+					D96417011E1E560B00FB13D6 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = YMJ372W38W;
+						ProvisioningStyle = Manual;
+					};
 					D97B79AA1E12743A00B5116C = {
 						CreatedOnToolsVersion = 8.2;
 						DevelopmentTeam = YMJ372W38W;
@@ -472,11 +634,99 @@
 			projectRoot = "";
 			targets = (
 				D97B79AA1E12743A00B5116C /* WalkRoutePlanDemo */,
+				D96417011E1E560B00FB13D6 /* WalkRoutePlanDemo-Swift */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		D96417001E1E560B00FB13D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D96417721E1E5B9500FB13D6 /* RoutePathDetailViewController.xib in Resources */,
+				D96417201E1E58C900FB13D6 /* arrow_right.png in Resources */,
+				D96417211E1E58C900FB13D6 /* arrow_right@2x.png in Resources */,
+				D96417221E1E58C900FB13D6 /* arrowTexture.png in Resources */,
+				D96417231E1E58C900FB13D6 /* bus@2x.png in Resources */,
+				D96417241E1E58C900FB13D6 /* car@2x.png in Resources */,
+				D96417251E1E58C900FB13D6 /* compass@2x.png in Resources */,
+				D96417261E1E58C900FB13D6 /* custtexture.png in Resources */,
+				D96417271E1E58C900FB13D6 /* custtexture_bad.png in Resources */,
+				D96417281E1E58C900FB13D6 /* custtexture_green.png in Resources */,
+				D96417291E1E58C900FB13D6 /* custtexture_slow.png in Resources */,
+				D964172A1E1E58C900FB13D6 /* decrease@2x.png in Resources */,
+				D964172B1E1E58C900FB13D6 /* delete@3x.png in Resources */,
+				D964172C1E1E58C900FB13D6 /* busRoute@2x.png in Resources */,
+				D964172D1E1E58C900FB13D6 /* busRoute@3x.png in Resources */,
+				D964172E1E1E58C900FB13D6 /* dottedStraight@2x.png in Resources */,
+				D964172F1E1E58C900FB13D6 /* dottedStraight@3x.png in Resources */,
+				D96417301E1E58C900FB13D6 /* downStairs@2x.png in Resources */,
+				D96417311E1E58C900FB13D6 /* downStairs@3x.png in Resources */,
+				D96417321E1E58C900FB13D6 /* end@2x.png in Resources */,
+				D96417331E1E58C900FB13D6 /* end@3x.png in Resources */,
+				D96417341E1E58C900FB13D6 /* left@2x.png in Resources */,
+				D96417351E1E58C900FB13D6 /* left@3x.png in Resources */,
+				D96417361E1E58C900FB13D6 /* leftFront@2x.png in Resources */,
+				D96417371E1E58C900FB13D6 /* leftFront@3x.png in Resources */,
+				D96417381E1E58C900FB13D6 /* leftRear@2x.png in Resources */,
+				D96417391E1E58C900FB13D6 /* leftRear@3x.png in Resources */,
+				D964173A1E1E58C900FB13D6 /* lift@2x.png in Resources */,
+				D964173B1E1E58C900FB13D6 /* lift@3x.png in Resources */,
+				D964173C1E1E58C900FB13D6 /* pavement@2x.png in Resources */,
+				D964173D1E1E58C900FB13D6 /* pavement@3x.png in Resources */,
+				D964173E1E1E58C900FB13D6 /* point@2x.png in Resources */,
+				D964173F1E1E58C900FB13D6 /* point@3x.png in Resources */,
+				D96417401E1E58C900FB13D6 /* right@2x.png in Resources */,
+				D96417411E1E58C900FB13D6 /* right@3x.png in Resources */,
+				D96417421E1E58C900FB13D6 /* rightFront@2x.png in Resources */,
+				D96417431E1E58C900FB13D6 /* rightFront@3x.png in Resources */,
+				D96417441E1E58C900FB13D6 /* rightRear@2x.png in Resources */,
+				D96417451E1E58C900FB13D6 /* rightRear@3x.png in Resources */,
+				D96417461E1E58C900FB13D6 /* start@2x.png in Resources */,
+				D96417471E1E58C900FB13D6 /* start@3x.png in Resources */,
+				D96417481E1E58C900FB13D6 /* straight@2x.png in Resources */,
+				D96417491E1E58C900FB13D6 /* straight@3x.png in Resources */,
+				D964174A1E1E58C900FB13D6 /* underGround@2x.png in Resources */,
+				D964174B1E1E58C900FB13D6 /* underGround@3x.png in Resources */,
+				D964174C1E1E58C900FB13D6 /* upStairs@2x.png in Resources */,
+				D964174D1E1E58C900FB13D6 /* upStairs@3x.png in Resources */,
+				D964174E1E1E58C900FB13D6 /* walkRoute@2x.png in Resources */,
+				D964174F1E1E58C900FB13D6 /* walkRoute@3x.png in Resources */,
+				D96417501E1E58C900FB13D6 /* download@3x.png in Resources */,
+				D96417511E1E58C900FB13D6 /* endPoint.png in Resources */,
+				D96417521E1E58C900FB13D6 /* endPoint@2x.png in Resources */,
+				D96417531E1E58C900FB13D6 /* gpsStat1@2x.png in Resources */,
+				D96417541E1E58C900FB13D6 /* gpsStat2@2x.png in Resources */,
+				D96417551E1E58C900FB13D6 /* GWF.png in Resources */,
+				D96417561E1E58C900FB13D6 /* hema.png in Resources */,
+				D96417571E1E58C900FB13D6 /* icon-72.png in Resources */,
+				D96417581E1E58C900FB13D6 /* icon-72@2x.png in Resources */,
+				D96417591E1E58C900FB13D6 /* icon.png in Resources */,
+				D964175A1E1E58C900FB13D6 /* icon@2x.png in Resources */,
+				D964175B1E1E58C900FB13D6 /* increase@2x.png in Resources */,
+				D964175C1E1E58C900FB13D6 /* locate@2x.png in Resources */,
+				D96417701E1E5B9500FB13D6 /* RoutePathDetailTableViewCell.xib in Resources */,
+				D964175D1E1E58C900FB13D6 /* man@2x.png in Resources */,
+				D964175E1E1E58C900FB13D6 /* navi@2x.png in Resources */,
+				D964175F1E1E58C900FB13D6 /* naviBackgroundHighlighted.png in Resources */,
+				D96417601E1E58C900FB13D6 /* naviBackgroundNormal.png in Resources */,
+				D96417611E1E58C900FB13D6 /* pause@3x.png in Resources */,
+				D96417621E1E58C900FB13D6 /* public_button_back@2x.png in Resources */,
+				D96417631E1E58C900FB13D6 /* public_button_back@3x.png in Resources */,
+				D96417641E1E58C900FB13D6 /* railway_station@2x.png in Resources */,
+				D96417651E1E58C900FB13D6 /* ride@2x.png in Resources */,
+				D96417661E1E58C900FB13D6 /* search@2x.png in Resources */,
+				D96417671E1E58C900FB13D6 /* startPoint.png in Resources */,
+				D96417681E1E58C900FB13D6 /* startPoint@2x.png in Resources */,
+				D96417691E1E58C900FB13D6 /* userPosition.png in Resources */,
+				D964176A1E1E58C900FB13D6 /* userPosition@2x.png in Resources */,
+				D964170F1E1E560B00FB13D6 /* LaunchScreen.storyboard in Resources */,
+				D964170C1E1E560B00FB13D6 /* Assets.xcassets in Resources */,
+				D964170A1E1E560B00FB13D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D97B79A91E12743A00B5116C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -567,6 +817,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		00B697DE69AE9770DF20B1D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WalkRoutePlanDemo-Swift/Pods-WalkRoutePlanDemo-Swift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		54C252145132E6A451282B4A /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -597,7 +862,37 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WalkRoutePlanDemo/Pods-WalkRoutePlanDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		A2BB5C5DED07A9CA2AE30C35 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WalkRoutePlanDemo-Swift/Pods-WalkRoutePlanDemo-Swift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		CA43AAED92BFBF2BE0152CB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FDF190C3CEF132E863FF3230 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -615,6 +910,22 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		D96416FE1E1E560B00FB13D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D964171F1E1E587800FB13D6 /* CommonUtility.m in Sources */,
+				D96417181E1E583300FB13D6 /* LineDashPolyline.m in Sources */,
+				D964171A1E1E583300FB13D6 /* MANaviAnnotation.m in Sources */,
+				D964176F1E1E5B9500FB13D6 /* RoutePathDetailTableViewCell.swift in Sources */,
+				D964171C1E1E583300FB13D6 /* MANaviPolyline.m in Sources */,
+				D96417711E1E5B9500FB13D6 /* RoutePathDetailViewController.swift in Sources */,
+				D964171E1E1E583300FB13D6 /* MANaviRoute.m in Sources */,
+				D96417151E1E56B700FB13D6 /* RootViewController.swift in Sources */,
+				D96417051E1E560B00FB13D6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D97B79A71E12743A00B5116C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -635,6 +946,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		D96417081E1E560B00FB13D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D96417091E1E560B00FB13D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D964170D1E1E560B00FB13D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D964170E1E1E560B00FB13D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		D97B79B71E12743A00B5116C /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -654,6 +981,46 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		D96417111E1E560B00FB13D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D395B64D7C5F588676E3758 /* Pods-WalkRoutePlanDemo-Swift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				INFOPLIST_FILE = "WalkRoutePlanDemo-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.WalkRoutePlanDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8014ae4e-33b6-4937-87e3-3725a2aad4f7";
+				PROVISIONING_PROFILE_SPECIFIER = openPlatform_development;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OBJC_BRIDGING_HEADER = "./WalkRoutePlanDemo-Swift/Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		D96417121E1E560B00FB13D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBDE0393C81E7FD9180E79C0 /* Pods-WalkRoutePlanDemo-Swift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				INFOPLIST_FILE = "WalkRoutePlanDemo-Swift/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.WalkRoutePlanDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "a892512d-fe94-4702-b716-0b66880b936d";
+				PROVISIONING_PROFILE_SPECIFIER = openPlatformInhouse;
+				SWIFT_OBJC_BRIDGING_HEADER = "./WalkRoutePlanDemo-Swift/Swift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
 		D97B79C01E12743A00B5116C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -778,6 +1145,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		D96417131E1E560B00FB13D6 /* Build configuration list for PBXNativeTarget "WalkRoutePlanDemo-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D96417111E1E560B00FB13D6 /* Debug */,
+				D96417121E1E560B00FB13D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		D97B79A61E12743A00B5116C /* Build configuration list for PBXProject "WalkRoutePlanDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
