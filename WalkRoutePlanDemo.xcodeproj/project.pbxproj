@@ -187,8 +187,19 @@
 		D97B7A781E12799C00B5116C /* RoutePathDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D97B7A221E12799C00B5116C /* RoutePathDetailViewController.m */; };
 		D97B7A791E12799C00B5116C /* RoutePathDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D97B7A231E12799C00B5116C /* RoutePathDetailViewController.xib */; };
 		D97B7A7A1E12799C00B5116C /* CommonUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = D97B7A261E12799C00B5116C /* CommonUtility.m */; };
+		D9F99C851E238E4400BD89EA /* WalkRoutePlanDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D9F99C841E238E4400BD89EA /* WalkRoutePlanDemoUITests.m */; };
 		F10C666C2FE043A984439F9B /* libPods-WalkRoutePlanDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 082555795D8858CAB69C601B /* libPods-WalkRoutePlanDemo.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9F99C871E238E4400BD89EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D97B79A31E12743A00B5116C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D97B79AA1E12743A00B5116C;
+			remoteInfo = WalkRoutePlanDemo;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		082555795D8858CAB69C601B /* libPods-WalkRoutePlanDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WalkRoutePlanDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -310,6 +321,9 @@
 		D97B7A231E12799C00B5116C /* RoutePathDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RoutePathDetailViewController.xib; sourceTree = "<group>"; };
 		D97B7A251E12799C00B5116C /* CommonUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonUtility.h; sourceTree = "<group>"; };
 		D97B7A261E12799C00B5116C /* CommonUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommonUtility.m; sourceTree = "<group>"; };
+		D9F99C821E238E4400BD89EA /* WalkRoutePlanDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalkRoutePlanDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9F99C841E238E4400BD89EA /* WalkRoutePlanDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WalkRoutePlanDemoUITests.m; sourceTree = "<group>"; };
+		D9F99C861E238E4400BD89EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EBDE0393C81E7FD9180E79C0 /* Pods-WalkRoutePlanDemo-Swift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WalkRoutePlanDemo-Swift.release.xcconfig"; path = "Pods/Target Support Files/Pods-WalkRoutePlanDemo-Swift/Pods-WalkRoutePlanDemo-Swift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -327,6 +341,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F10C666C2FE043A984439F9B /* libPods-WalkRoutePlanDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9F99C7F1E238E4400BD89EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,6 +397,7 @@
 			children = (
 				D97B79AD1E12743A00B5116C /* WalkRoutePlanDemo */,
 				D96417031E1E560B00FB13D6 /* WalkRoutePlanDemo-Swift */,
+				D9F99C831E238E4400BD89EA /* WalkRoutePlanDemoUITests */,
 				D97B79AC1E12743A00B5116C /* Products */,
 				2BE518713266F995E733D0B8 /* Pods */,
 				318CF64353C6656B1AC8CEB9 /* Frameworks */,
@@ -387,6 +409,7 @@
 			children = (
 				D97B79AB1E12743A00B5116C /* WalkRoutePlanDemo.app */,
 				D96417021E1E560B00FB13D6 /* WalkRoutePlanDemo-Swift.app */,
+				D9F99C821E238E4400BD89EA /* WalkRoutePlanDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -555,6 +578,15 @@
 			path = Utility;
 			sourceTree = "<group>";
 		};
+		D9F99C831E238E4400BD89EA /* WalkRoutePlanDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9F99C841E238E4400BD89EA /* WalkRoutePlanDemoUITests.m */,
+				D9F99C861E238E4400BD89EA /* Info.plist */,
+			);
+			path = WalkRoutePlanDemoUITests;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -598,6 +630,24 @@
 			productReference = D97B79AB1E12743A00B5116C /* WalkRoutePlanDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D9F99C811E238E4400BD89EA /* WalkRoutePlanDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9F99C8B1E238E4400BD89EA /* Build configuration list for PBXNativeTarget "WalkRoutePlanDemoUITests" */;
+			buildPhases = (
+				D9F99C7E1E238E4400BD89EA /* Sources */,
+				D9F99C7F1E238E4400BD89EA /* Frameworks */,
+				D9F99C801E238E4400BD89EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9F99C881E238E4400BD89EA /* PBXTargetDependency */,
+			);
+			name = WalkRoutePlanDemoUITests;
+			productName = WalkRoutePlanDemoUITests;
+			productReference = D9F99C821E238E4400BD89EA /* WalkRoutePlanDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -618,6 +668,12 @@
 						DevelopmentTeam = YMJ372W38W;
 						ProvisioningStyle = Manual;
 					};
+					D9F99C811E238E4400BD89EA = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = YMJ372W38W;
+						ProvisioningStyle = Manual;
+						TestTargetID = D97B79AA1E12743A00B5116C;
+					};
 				};
 			};
 			buildConfigurationList = D97B79A61E12743A00B5116C /* Build configuration list for PBXProject "WalkRoutePlanDemo" */;
@@ -635,6 +691,7 @@
 			targets = (
 				D97B79AA1E12743A00B5116C /* WalkRoutePlanDemo */,
 				D96417011E1E560B00FB13D6 /* WalkRoutePlanDemo-Swift */,
+				D9F99C811E238E4400BD89EA /* WalkRoutePlanDemoUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -814,6 +871,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D9F99C801E238E4400BD89EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
@@ -943,7 +1007,23 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D9F99C7E1E238E4400BD89EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9F99C851E238E4400BD89EA /* WalkRoutePlanDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9F99C881E238E4400BD89EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D97B79AA1E12743A00B5116C /* WalkRoutePlanDemo */;
+			targetProxy = D9F99C871E238E4400BD89EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		D96417081E1E560B00FB13D6 /* Main.storyboard */ = {
@@ -1142,6 +1222,34 @@
 			};
 			name = Release;
 		};
+		D9F99C891E238E4400BD89EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				INFOPLIST_FILE = WalkRoutePlanDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.WalkRoutePlanDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8014ae4e-33b6-4937-87e3-3725a2aad4f7";
+				PROVISIONING_PROFILE_SPECIFIER = openPlatform_development;
+				TEST_TARGET_NAME = WalkRoutePlanDemo;
+			};
+			name = Debug;
+		};
+		D9F99C8A1E238E4400BD89EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = YMJ372W38W;
+				INFOPLIST_FILE = WalkRoutePlanDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.autonavi.WalkRoutePlanDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "8014ae4e-33b6-4937-87e3-3725a2aad4f7";
+				PROVISIONING_PROFILE_SPECIFIER = openPlatform_development;
+				TEST_TARGET_NAME = WalkRoutePlanDemo;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1171,6 +1279,14 @@
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
+		};
+		D9F99C8B1E238E4400BD89EA /* Build configuration list for PBXNativeTarget "WalkRoutePlanDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9F99C891E238E4400BD89EA /* Debug */,
+				D9F99C8A1E238E4400BD89EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
