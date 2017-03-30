@@ -108,7 +108,6 @@ static const NSString *RoutePlanningViewControllerDestinationTitle = @"终点";
 - (void)searchRoutePlanningWalk {
     
     AMapWalkingRouteSearchRequest *navi = [[AMapWalkingRouteSearchRequest alloc] init];
-    navi.multipath = 1; ///提供备选方案
     
     /* 出发点. */
     navi.origin = [AMapGeoPoint locationWithLatitude:self.startCoordinate.latitude

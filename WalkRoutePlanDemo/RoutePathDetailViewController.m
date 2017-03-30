@@ -33,6 +33,7 @@
     self.drivingImageDic = @{
                          @"开始":@"start",
                          @"结束":@"end",
+                         @"直行":@"straight",
                          @"右转":@"right",
                          @"左转":@"left",
                          @"往前走":@"straight",
