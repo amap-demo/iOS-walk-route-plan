@@ -9,4 +9,3 @@ target 'WalkRoutePlanDemo-Swift' do
     pod 'AMap3DMap'
     pod 'AMapSearch'
 end
-
