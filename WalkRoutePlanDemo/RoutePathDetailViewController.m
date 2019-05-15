@@ -43,6 +43,7 @@
                          @"向左前方行走":@"leftFront",
                          @"向左后方行走":@"leftRear",
                          @"向右后方行走":@"rightRear",
+                         @"直行":@"straight",
                          @"":@"straight"
                          };
     
